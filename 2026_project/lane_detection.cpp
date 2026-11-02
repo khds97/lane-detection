@@ -526,11 +526,7 @@ int main(int argc, char** argv) {
 
         string status="Lane pair not detected";
         if (left.valid && right.valid) {
-            double y=H*0.90;
-            double center=(left.x(y)+right.x(y))*0.5;
-            double offset=center-W*0.5;
-            status="Lane center offset: "+to_string(static_cast<int>(round(offset)))+
-                   " px (positive = right)";
+            status="Lane pair detected";
         }
         putText(output,status,Point(12,28),FONT_HERSHEY_SIMPLEX,0.55,
                 (left.valid && right.valid)?Scalar(0,255,0):Scalar(0,0,255),
