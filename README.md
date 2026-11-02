@@ -3,5 +3,5 @@ The original implementation primarily detected straight lane markings and had li
 <img width="642" height="578" alt="image" src="https://github.com/user-attachments/assets/4b529693-6aca-4097-a344-0115bd66395c" />
 
 I revisited the project to review its original implementation, identify its limitations, and improve the lane detection algorithm.
-The improvements include applying Bird's-Eye View transformation, Sobel edge detection, and sliding window techniques to better detect lande boundaries, including curved lanes.
+The improvements include applying Bird's-Eye View transformation, Sobel edge detection, and sliding window techniques to better detect lane boundaries, including curved lanes.
 <img width="641" height="519" alt="image" src="https://github.com/user-attachments/assets/fb09a403-06c1-4696-8d5f-7e723c1cd4b2" />
